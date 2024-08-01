@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    background-color:coral;
+    justify-content: center;
+    height: 90vh;
+    align-items: center;
+    margin: 0;
+}
+.container{
+    background-color:cornsilk;
+    padding: 20px 90px;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 3px 3px rgb(84, 80, 80);
+}
+.heading{
+    letter-spacing: 2px;
+    text-shadow: 2px 1px rgb(110, 108, 108);
+    text-align: center;
+    display: flex;
+    text-transform: uppercase;
+}
+#textplace{
+    resize: none;
+    width: 100%;
+    height: 100px;
+    font-size: 15px;
+    border-color: black;
+    border-radius: 5px;
+    box-shadow: 2px 2px rgb(104, 101, 101);
+    border: 2px solid black;
+}
+.count{
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 1.5px;
+    font-size: 17px;
+}
+#totalnumber{
+    color: green;
+}
+#remainingnumber{
+    color: red;
+}
