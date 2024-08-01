@@ -1,0 +1,27 @@
+.radius{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    color: blue;
+    border-color: black;
+    background-image: radial-gradient(circle,white,skyblue);
+
+}
+.radius:hover{
+    background-image: radial-gradient(circle,skyblue,darkblue);
+    color: white;
+}
+#border{
+    height: auto;
+    width: 350px;
+    border-radius: 25px;
+    border: 2px solid blue;
+    background-image: linear-gradient(rgba(0, 0, 255, 0.772),rgba(135, 207, 235, 0.658));
+    box-shadow: skyblue;
+}
+.text{
+    width: 99%;
+    height: 30px;
+    border-radius: 30px;
+    
+}

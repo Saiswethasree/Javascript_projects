@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <center>
+        <fieldset id="border">
+        <input type="text" name="" id="inputvalues" class="text" placeholder="0">
+        <br><br>
+        <table cellpadding="15px">
+            <tbody>
+                <tr>
+                    <td><button class="radius" onclick="clearOneChar()">C</button></td>
+                    <td><button class="radius" onclick="clearScreen()">CE</button></td>
+                    <td><input type="radio" name="on" id="off">
+                        <label for="">ON</label></td>
+                    <td><input type="radio" name="on" id="off">
+                        <label for="">OFF</label></td>
+                </tr>
+                <tr>
+                    <td><button class="radius" onclick="display('1')">1</button></td>
+                    <td><button class="radius" onclick="display('2')">2</button></td>
+                    <td><button class="radius" onclick="display('3')">3</button></td>
+                    <td><button class="radius" onclick="display('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td><button class="radius" onclick="display('4')">4</button></td>
+                    <td><button class="radius" onclick="display('5')">5</button></td>
+                    <td><button class="radius" onclick="display('6')">6</button></td>
+                    <td><button class="radius" onclick="display('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button class="radius" onclick="display('7')">7</button></td>
+                    <td><button class="radius" onclick="display('8')">8</button></td>
+                    <td><button class="radius" onclick="display('9')">9</button></td>
+                    <td><button class="radius" onclick="display('*')">*</button></td>
+                </tr>
+                <tr>
+                    <td><button class="radius" onclick="display('.')">.</button></td>
+                    <td><button class="radius" onclick="display('0')">0</button></td>
+                    <td><button class="radius" onclick="display('/')">/</button></td>
+                    <td><button class="radius" onclick="calculate()">=</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </fieldset>
+    
+    </center>
+
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
