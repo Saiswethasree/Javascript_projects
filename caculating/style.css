@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+form{
+    border: 2px solid white;
+    height: 250px;
+    width: 400px;
+    background-color: transparent;
+    box-shadow: 2px 2px black;
+    border-radius: 5px;
+}
+.text{
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border: solid 2px gold;
+    background: transparent;
+    display: block;
+}
+.text::placeholder{
+    color: black;
+}
+#btn{
+    background-color: green;
+    color: white;
+    border: none;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 5px;
+    display: block;
+    padding: 10px;
+}
+#btn:hover{
+    filter: brightness(0.9);
+}
